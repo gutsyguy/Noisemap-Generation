@@ -2,11 +2,13 @@ using UnityEngine;
 
 public class Generate : MonoBehaviour
 {
+    [Header("Size")]
     public int width = 256;
     public int height = 256;
 
     public int depth = 20;
 
+    [Header("Scale")]
     public float scale = 20f;
 
     public float offsetX = 100f;
